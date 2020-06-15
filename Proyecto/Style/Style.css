@@ -1,0 +1,197 @@
+body {
+    
+    font-family: 'Crimson Text', serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+.logo {
+    margin-top: 4px;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    height: inherit;
+}
+
+.menu{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+    align-items: center;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: wrap;
+
+}
+
+.principal{
+    height: 300px;
+    background-color: #00B6FF  ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagenPrincipal{
+    object-fit: cover;
+}
+
+h1{
+    color: black;
+}
+
+strong{
+    color: blue
+}
+
+h2{
+    color: blue;
+    font-size: 25px;
+}
+
+.acercaDemi{
+    background: #F6FBFC;
+    padding: 20px;
+}
+
+.sobreMi{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C5EBFA;
+}
+
+.descrpcionSobreMi{
+    font-size: 19px;
+}
+
+.tituloSobreMi{
+    font-size: 25px;
+}
+
+.listaMasSobreMi{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.masSobreMi{
+    width: 450px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: #EAF6FA;
+}
+
+.imagenMasSobreMi{
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.detalleMasSobreMi{
+    margin: 20px 40px;
+    margin-top: -39px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+ul{
+    text-align: left;
+}
+
+.contacto{
+    background-color: #00B6FF  ;
+    height: 160px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-redSocial{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.link-redSocial.facebook{
+    background-size: 40px 40px;
+    background-image: url("https://img.icons8.com/ios-glyphs/30/000000/facebook.png");
+}
+
+.link-redSocial.instagram{
+    background-size: 40px 40px;
+    background-image: url("https://img.icons8.com/material/48/000000/instagram-new--v1.png");
+}
+
+.formulario-email input{
+    border-color: grey;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.formulario-email button{
+    display: block;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.footer{
+    background-color:black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
